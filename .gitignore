@@ -1,0 +1,32 @@
+# Ignore the Git internal directory (normally not needed since Git doesn't commit it,
+# but included per your request)
+.git/
+
+# Visual Studio temporary files and folders
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment directories
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Other temporary files
+*.tmp
