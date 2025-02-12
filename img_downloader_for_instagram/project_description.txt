@@ -1,0 +1,38 @@
+Downloading Images from an Instagram Account
+
+
+Objective
+
+In this project, you will download all images from a specific public Instagram account, e.g. Yan's account: https://www.instagram.com/grapeot/. 
+
+Background and Context
+
+Instagram, like many social media platforms, imposes strict limitations on automated data extraction. Applying for an API key can be time-consuming, and the platform employs anti-bot measures to prevent unauthorized scraping. The HTML page is also dynamic and thus not scraper friendly. However, with the proper use of developer tools and AI assistance, you can ethically and efficiently download images from a public account.
+
+This project builds upon the concepts from Module 1 regarding GUI to API transitions and from Module 2 on understanding GenAI internals and best practices. It exemplifies how AI-assisted programming and effective prompt management can overcome practical obstacles.
+
+Why This Project Matters
+
+Automating the retrieval of data from platforms with restrictions is a valuable skill. It demonstrates the ability to think creatively and utilize available tools to achieve your goals while adhering to ethical guidelines. This project also highlights the importance of understanding how web technologies and developer tools can be leveraged in data extraction tasks.
+
+Expected Outcome
+
+You should be able to download all publicly available images from the specified Instagram account and save them locally. This will involve compiling a list of image URLs and automating the download process.
+
+Learning Objectives
+
+Learn to navigate platform restrictions ethically.
+
+Gain experience in using browser developer tools for network analysis.
+
+Understand how to handle dynamically loaded content.
+
+Develop AI-assisted programming skills for automating complex tasks.
+
+Hints and Guidance
+
+Begin by accessing the public Instagram account in your web browser. Recognize that while the GUI presents images dynamically, the underlying data can still be accessed. Use your browser's developer tools, specifically the "Network" tab, to monitor the assets being loaded as you scroll through the page. These assets include the images themselves.
+
+Instagram employs techniques like infinite scrolling and dynamic content loading, which means that not all content is loaded simultaneously. To capture all images, you may need to scroll through the entire page, allowing all images to load. As you do so, the network activity will record the URLs of these images.
+
+Once you have the list of image URLs, you can use AI assistance to generate a script that downloads them. Provide the AI with information about the challenges you're facing, such as dynamically loaded content and anti-bot measures, to get more accurate assistance.
