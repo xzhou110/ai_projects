@@ -1,56 +1,42 @@
-# AI-Course-Projects
+# AI Projects
 
-This repository hosts five mini-projects completed during the course “From Users to Builders: Transform Yourself for the Age of AI.” Each project highlights a unique aspect of AI-driven development, reflecting both the course’s lessons and a personal initiative to explore end-to-end solutions with AI agents. The projects range from web scraping to crypto price plotting, GUI automation, and image processing—showcasing varied applications of data and AI techniques.
-
-## Overview
-
-By tackling real-world tasks with these smaller, focused projects, the goal is to demonstrate how AI agents can streamline workflows, enable rapid experimentation, and support continuous learning. Though each project differs in theme, they share a commitment to hands-on exploration and iterative improvement.
+This repository contains five mini-projects created during the course “From Users to Builders: Transform Yourself for the Age of AI.” Each folder demonstrates a different use case or technique related to AI, automation, or data processing. While the scope of each project varies, they all reflect a hands-on approach to learning and building end-to-end solutions.
 
 ## Repository Structure
 
-- **crypto-price-plot/**
-  A project to retrieve and visualize cryptocurrency price data. Emphasizes data collection, simple plotting, and quick insights.
+- **crypto_price_plotter/**  
+  Project for retrieving and plotting cryptocurrency price data.
+- **cvpr_scrapper/**  
+  Web-scraping tool focused on gathering specific information from CVPR-related sources.
+- **gui_automation_circle_drawing/**  
+  Script for automating GUI actions to draw circles, demonstrating creative ways to control user interfaces.
+- **image_analyzer/**  
+  Basic image analysis functionality, highlighting methods to process and interpret visual data.
+- **img_downloader_for_instagram/**  
+  Simple utility to download images from Instagram, showing how to interact with external platforms or APIs.
 
-- **gui-automation/**
-  Explores automated interactions with graphical user interfaces. Helps illustrate how AI agents (or script-based automations) can handle repetitive tasks.
-
-- **basic-scraper/**
-  Focuses on web scraping fundamentals, including parsing HTML, extracting information, and formatting data for analysis.
-
-- **image-processing/**
-  Demonstrates handling and manipulating images with basic computer vision or image transformation tasks.
-
-- **project-five/**
-  A placeholder for any future or additional mini-projects to come. Reflects the ongoing nature of this learning journey.
-
-- **requirements.txt**
-  Lists the Python dependencies needed to run these projects.
-
-- **LICENSE**
-  Provides the terms under which this repository is shared.
+Additional files in this repository:
+- **.gitignore**  
+  Specifies files and folders that should be excluded from version control.
+- **LICENSE**  
+  Outlines the terms and conditions for using and distributing the projects.
+- **README.md**  
+  The file you’re currently reading.
 
 ## Getting Started
 
 1. **Clone the Repository**  
    ```bash
-   git clone https://github.com/xzhou110/AI-Course-Projects.git
-   cd AI-Course-Projects
+   git clone https://github.com/xzhou110/ai_projects.git
+   cd ai_projects
    ```
-2. **Install Dependencies**  
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. **Explore Each Sub-Project**  
-   Move into any of the project folders to find relevant scripts, notebooks, or additional documentation.
-
-## Project Summaries
-
-Each folder contains its own code and (where applicable) instructions on setup and usage. Projects may use AI agents for automation, code refactoring, or data manipulation. By reviewing them, you can see how agent-assisted approaches can speed up development, encourage cleaner code, and open new avenues for experimentation.
+2. **Explore Each Project**  
+   Each folder contains its own code, and in some cases, supporting scripts or documentation. Refer to any in-folder notes or comments for instructions on setup or usage.
 
 ## Contributing
 
-Pull requests are welcome. If you spot areas for improvement or have an idea to extend these projects, feel free to create a branch and open a PR. Questions or suggestions can be filed as issues for further discussion.
+Contributions are welcome. If you have ideas to improve a project or wish to add a new one, feel free to open a pull request or submit an issue.
 
 ## License
 
-This repository is distributed under the terms specified in the [LICENSE](LICENSE) file. You’re free to use or modify the contents in accordance with those terms. Enjoy exploring these examples and feel free to adapt any of the techniques for your own projects!
+All projects in this repository are covered under the [LICENSE](LICENSE) provided. You’re free to use or modify the code according to the stated terms. Enjoy exploring these examples and adapting them to your own AI endeavors!
